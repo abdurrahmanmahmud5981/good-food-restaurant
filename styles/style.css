@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.btn-container {
+  text-align: center;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 14px 18px 14px 18px;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  border: none;
+  cursor: pointer;
+}
+#hero {
+  /* height: 100vh; */
+  height: 424px;
+  background-image: linear-gradient(
+      180deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .hero-content {
+  width: 685px;
+}
+#hero .hero-content .subtitle {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+#hero .hero-content .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 18px;
+}
+#hero .hero-content .description {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 11.5px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 21px;
+}
+
+/* cards section */
+#card-box {
+  max-width: 884px;
+  margin: 100px auto;
+}
+
+#card-box .title,.about-info .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#card-box .subtitle, .about-info .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+.cards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.card {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.card .image-box {
+  width: 250px;
+}
+.card .image-box img {
+  width: 100%;
+}
+.card .shop {
+  /* text-align: center; */
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  color: rgb(16, 16, 16);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0%;
+}
+#about-us{
+    /* max-width: 884px; */
+    max-height: 449px;
+    margin: 100px auto;
+}
+.about-container{
+    display: flex;
+}
+.about-container .about-img{
+    width: 50%;
+    height: 449px;
+}
+.about-container .about-img img{
+    width: 100%;
+    height: 100%;
+}
+ .about-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+ .about-info .title{
+    line-height: 40px;
+}
+ .soical-links{
+    display: flex;
+    gap: 20px;
+}
+ .soical-links .fa-facebook{
+    font-size: 20px;
+    color: rgb(0, 102, 255);
+}
+ .soical-links .fa-x-twitter{
+    color: black;
+    font-size: 20px;
+
+}
+ .soical-links .fa-instagram{
+    color: rgb(235, 77, 77);
+    font-size: 20px;
+
+}
+ .soical-links .fa-pinterest{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+
+}
+.follow{
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-block: 1px solid rgba(129, 129, 129, 0.17);
+    width: 100%;
+    padding-block: 10px;
+}
+footer{
+    height: 449px;
+  display: flex;
+  justify-content: center;
+  background-image:linear-gradient(
+    360deg,
+    rgba(245, 245, 245, 0.9) 100%,
+    rgba(255, 255, 255, 0.9) 100%
+  ),url("../assets/social-bg.png")
+  ;
+
+}
